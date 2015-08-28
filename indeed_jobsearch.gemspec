@@ -10,6 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mrandrewcarroll@gmail.com"]
 
   spec.summary       = %q{Unofficial API for searching Indeed jobs.}
+  spec.description   = %q{A client library for searching Indeed jobs without using the official API. There are a couple advantages to this, including not requiring authorization, as well as being able to fetch search results for third-party job ads. If you are looking for a client library for the official API, use Indeed's official gem, indeed-ruby, instead.}
   spec.homepage      = "http://github.com/andrew-carroll/indeed_jobsearch"
   spec.licenses      = ['MIT']
 
