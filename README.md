@@ -1,4 +1,4 @@
-# IndeedJobsearch
+# IndeedJobsearch [![Coverage Status](https://coveralls.io/repos/andrew-carroll/indeed_jobsearch/badge.svg?branch=master&service=github)](https://coveralls.io/github/andrew-carroll/indeed_jobsearch?branch=master) [![Build Status](https://circleci.com/gh/andrew-carroll/indeed_jobsearch.svg?style=shield&circle-token=5f73b0fc84e352ec3c03acb0771526d80326f5b8)](https://circleci.com/gh/andrew-carroll/indeed_jobsearch) [![Code Climate](https://codeclimate.com/github/andrew-carroll/indeed_jobsearch/badges/gpa.svg)](https://codeclimate.com/github/andrew-carroll/indeed_jobsearch)
 
 A client library for searching Indeed jobs without using the official API. There are a couple advantages to this, including not requiring authorization, as well as being able to fetch search results for third-party job ads. If you are looking for a client library for the official API, use [Indeed's official gem](https://github.com/indeedlabs/indeed-ruby) instead.
 

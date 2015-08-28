@@ -26,6 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry-remote", "~> 0.1.8"
   spec.add_development_dependency "pry-nav", "~> 0.2.4"
   spec.add_development_dependency "simplecov", "~> 0.10.0"
+  spec.add_development_dependency "coveralls", "~> 0.8.2"
   spec.add_runtime_dependency "mechanize", "~> 2.7.3"
   spec.add_runtime_dependency "activesupport", "~> 4.2.3"
   spec.add_runtime_dependency "retryable", "~> 2.0.2"
