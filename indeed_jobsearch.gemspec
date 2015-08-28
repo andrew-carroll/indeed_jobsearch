@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Unofficial API for searching Indeed jobs.}
   spec.homepage      = "http://github.com/andrew-carroll/indeed_jobsearch"
+  spec.licenses      = ['MIT']
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "bin"
